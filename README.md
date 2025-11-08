@@ -82,6 +82,8 @@ void loop() {
     Serial.print(humidity);
     Serial.println(" %");
   }
+  delay(2000);
+}
 ```
 ## 📺 Example Serial Output
 ```cpp
@@ -91,6 +93,3 @@ Temperature: 24.50 °C  |  Humidity: 45.90 %
 Failed to read from DHT22 sensor!
 Temperature: 24.60 °C  |  Humidity: 46.00 %
 ```
-
-  delay(2000);
-}
